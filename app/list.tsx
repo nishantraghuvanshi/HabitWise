@@ -9,7 +9,7 @@ const List = ({navigation}: any) => {
         <Text>List</Text>
         <Button title="Go to Details" onPress={()=>navigation.navigate('details')} />
         <Button title="Logout" onPress={()=>Firebase_auth.signOut()} />
-        <WelcomePage />
+        
     </View>
   )
 }

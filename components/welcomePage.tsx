@@ -5,6 +5,7 @@ const WelcomePage = () => {
   return (
     <View>
       <Image source={require('../assets/jog2d.png')} />
+      <Image source={require('../assets/Ellipse-2.png')} />
     </View>
   )
 }
